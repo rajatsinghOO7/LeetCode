@@ -61,10 +61,3 @@ class MyLinkedList:
             current.next = current.next.next if current.next else None
         self.size -= 1
 
-    def __str__(self):
-        values = []
-        current = self.head
-        while current:
-            values.append(current.val)
-            current = current.next
-        return " -> ".join(map(str, values))
