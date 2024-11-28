@@ -14,4 +14,4 @@ class Solution:
                 ans.add(nums1[i])
                 i+=1
                 j+=1
-        return ans
+        return list(ans)
