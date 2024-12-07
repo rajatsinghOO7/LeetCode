@@ -8,7 +8,7 @@ class Solution:
         prev = None
         current = head
         
-        while current is not None:
+        while current != None:
             next_node = current.next
             current.next = prev
             prev = current
@@ -16,4 +16,3 @@ class Solution:
             
         return prev
 
-        
